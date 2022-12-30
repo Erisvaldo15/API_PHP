@@ -1,0 +1,21 @@
+{
+    "name": "erisvaldo/api_2",
+    "description": "Api of songs.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erisvaldo",
+            "email": "erisvaldosilvadesousa38@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {
+        "symfony/var-dumper": "^6.2",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
